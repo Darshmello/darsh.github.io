@@ -1,0 +1,124 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Ensures consistent sizing for elements */
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    /* Sets the font of the entire page */
+    color: #fff;
+    /* White text color */
+    background-color: #0d0d0d;
+    /* Dark background for dark mode */
+    line-height: 1.6;
+    /* Improves readability by spacing lines */
+  }
+  
+  /* Header Navigation */
+  header {
+    background-color: #1a1a1a;
+    /* Slightly lighter background for the header */
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    /* Centers the navigation items */
+    list-style: none;
+    /* Removes default list styling */
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+    /* Adds space between navigation items */
+  }
+  
+  nav ul li a {
+    color: #fff;
+    /* White text for links */
+    text-decoration: none;
+    /* Removes underline from links */
+    font-size: 1.2rem;
+    /* Increases font size */
+    transition: color 0.3s;
+    /* Smooth hover effect */
+  }
+  
+  nav ul li a:hover {
+    color: #008cba;
+    /* Changes color on hover */
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Centers the content horizontally */
+  }
+  
+  .hero-content {
+    max-width: 50%;
+    /* Limits the width of the text content */
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    /* Large heading text */
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .buttons .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .btn.primary {
+    background-color: #008cba;
+    /* Blue color for the primary button */
+  }
+  
+  .btn.primary:hover {
+    background-color: #005f7f;
+    /* Darker blue on hover */
+  }
+  
+  .btn.secondary {
+    background-color: #444;
+  }
+  
+  .btn.secondary:hover {
+    background-color: #333;
+  }
+  
+  .hero-image img {
+    max-width: 300px;
+    border-radius: 15px;
+    /* Rounds the corners of the image */
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    /* Footer background color */
+  }
+  
