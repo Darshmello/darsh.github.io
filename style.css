@@ -7,8 +7,7 @@
   }
   
   body {
-    font-family: 'Arial', sans-serif;
-    /* Sets the font of the entire page */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;    /* Sets the font of the entire page */
     color: #fff;
     /* White text color */
     background-color: #0d0d0d;
