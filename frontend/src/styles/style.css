@@ -1,0 +1,114 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Ensures consistent sizing for elements */
+}
+@font-face {
+  font-family: 'SF Pro Rounded';
+  src: url('./fonts/SF-Pro-Rounded-Regular.otf') format('opentype'),
+}
+@font-face {
+  font-family: 'SF Pro Rounded Bold';
+  src: url('./fonts/SF-Pro-Rounded-Black.otf') format('opentype');
+}
+
+
+
+body {
+  font-family: 'SF Pro Rounded', sans-serif;
+  color: #ffffff;
+  background-color: #0d0d0d;
+  line-height: 1.6;
+}
+
+/* Header Navigation */
+header {
+  background-color: #1a1a1a;
+  padding: 20px 35px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+  font-family: 'SF Pro Rounded Bold';
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #008cba;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.buttons .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.btn.primary {
+  background-color: #008cba;
+}
+
+.btn.primary:hover {
+  background-color: #005f7f;
+}
+
+.btn.secondary {
+  background-color: #444;
+}
+
+.btn.secondary:hover {
+  background-color: #333;
+}
+
+.hero-image img {
+  max-width: 300px;
+  border-radius: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #111;
+}

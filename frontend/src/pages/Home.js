@@ -1,0 +1,23 @@
+import React from "react";
+
+const Home = () => {
+  return (
+    <section id="home" className="hero">
+      <div className="hero-content">
+        <h1>Tech Leader, Advisor, and Builder</h1>
+        <p>
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+        </p>
+        <div className="buttons">
+          <a href="/contact" className="btn primary">Work With Me</a>
+          <a href="/work" className="btn secondary">See My Work</a>
+        </div>
+      </div>
+      <div className="hero-image">
+        <img src="profile.jpg" alt="Profile" />
+      </div>
+    </section>
+  );
+};
+
+export default Home;
