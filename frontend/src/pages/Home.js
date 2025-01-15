@@ -7,6 +7,55 @@ const Home = () => {
         <h1>Tech Leader, Advisor, and Builder</h1>
         <p>
           Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+
+
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+          Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
+
         </p>
         <div className="buttons">
           <a href="/contact" className="btn primary">Work With Me</a>

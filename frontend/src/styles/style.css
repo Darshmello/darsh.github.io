@@ -19,14 +19,42 @@
 body {
   font-family: 'SF Pro Rounded', sans-serif;
   color: #ffffff;
-  background-color: #0d0d0d;
+  background-color: #1a1a1a;
   line-height: 1.6;
 }
 
 /* Header Navigation */
 header {
-  background-color: #1a1a1a;
-  padding: 20px 35px;
+  font-family: 'SF Pro Rounded Bold';
+  background-color: #0d0d0d;
+  padding: 15px 35px;
+  position: sticky;
+  top: 0;
+  
+}
+#cursor-effect {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgba(0, 0, 139, 0.1); /* Subtle blue haze */
+  box-shadow: 0 0 15px 10px rgba(0, 0, 139, 0.2); /* Haze effect */
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: multiply;
+  transform: translate(1%, 1%);
+  transition: top 0.7s ease-out, left 0.7s ease-out; /* Smooth movement */
+  animation: fade-in-out 1.5s infinite alternate;
+}
+
+/* Optional animation to give the haze a pulsating effect */
+@keyframes fade-in-out {
+  1% {
+    box-shadow: 0 0 15px 10px rgba(0, 0, 139, 0.15);
+  }
+  100% {
+    box-shadow: 0 0 20px 15px rgba(0, 0, 139, 0.1);
+  }
 }
 
 nav ul {
@@ -37,8 +65,7 @@ nav ul {
 
 nav ul li {
   margin: 0 15px;
-  font-family: 'SF Pro Rounded Bold';
-}
+} 
 
 nav ul li a {
   color: #fff;

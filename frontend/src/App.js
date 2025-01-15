@@ -5,11 +5,13 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Work from "./pages/Work";
 import Contact from "./pages/Contact";
-import { Routes, Route } from 'react-router-dom'; // Only need Routes and Route
+import CursorEffect from "./components/CursorEffect"; // Import CursorEffect
+import { Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return (
     <>
+      <CursorEffect /> {/* Add this to use the component */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
