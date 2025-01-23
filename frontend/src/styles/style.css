@@ -19,7 +19,7 @@
 body {
   font-family: 'SF Pro Rounded', sans-serif;
   color: #ffffff;
-  background-color: #1a1a1a;
+  background-color: black;
   line-height: 1.6;
 }
 
@@ -57,6 +57,71 @@ header {
   }
 }
 
+.photography-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.photography-page h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #c8c2bd; /* Base text color */
+  text-shadow: 
+    0 0 10px #c8c2bd, 
+    0 0 20px #c8c2bd, 
+    0 0 30px #c8c2bd, 
+    0 0 40px #c8c2bd, 
+    0 0 50px #ffffff; /* Adjust intensity and color */
+  filter: brightness(0.5); /* Slightly enhance brightness */
+  }
+  
+  .photography-page p {
+    font-size: 1.4rem;
+    color: #c8c2bd;
+    margin-bottom: 2rem;
+  }
+
+
+/* Masonry Grid Styles */
+.masonry-grid {
+  column-count: 3; /* Number of masonry columns */
+  column-gap: 16px; /* Space between columns */
+  margin-top: 1rem;
+}
+
+.masonry-item {
+  break-inside: avoid; /* Prevent breaking inside items */
+  margin-bottom: 16px; /* Spacing between items */
+}
+
+.photo-item {
+  width: 100%; /* Images take up full column width */
+  display: block;
+  border-radius: 4px; /* Optional: Rounded corners */
+  object-fit: cover; /* Prevent distortion */
+  transition: transform 0.3s ease;
+}
+.photo-item:hover {
+  transform: scale(1.05);
+}
+/* Responsive Masonry Layout */
+@media (max-width: 1024px) {
+  .masonry-grid {
+    column-count: 2; /* Reduce to 2 columns for medium screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .masonry-grid {
+    column-count: 1; /* Single column for smaller screens */
+  }
+}
+
 nav ul {
   display: flex;
   justify-content: center;
@@ -78,6 +143,7 @@ nav ul li a:hover {
   color: #008cba;
 }
 
+
 /* Hero Section */
 .hero {
   display: flex;
@@ -93,9 +159,21 @@ nav ul li a:hover {
 }
 
 .hero h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
+  font-size: 4rem; /* Adjust size for better visibility */
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff; /* Set base color to white for visibility */
+  text-shadow: 
+    0 0 5px #ffffff, 
+    0 0 10px #ffffff, 
+    0 0 20px #ff9900, /* Add a warm glow effect */
+    0 0 40px #ff9900, 
+    0 0 80px #ff9900, 
+    0 0 120px #ff9900; /* Increase intensity for outer glow */
+  padding: 20px; /* Optional: Add padding around text */
+  display: inline-block; /* Optional: Fit the text within a block */
+  }
+
 
 .hero p {
   font-size: 1.2rem;

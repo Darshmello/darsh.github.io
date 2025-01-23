@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section id="home" className="hero">
       <div className="hero-content">
-        <h1>Tech Leader, Advisor, and Builder</h1>
+        <h1>Innovator. Builder. Leader.</h1>
         <p>
           Hi! I'm Darsh Gangakhedkar, a motivated and detail-oriented Computer Science major.
           I have experience in software development, project management, and leadership.
