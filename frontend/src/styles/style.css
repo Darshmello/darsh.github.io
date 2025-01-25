@@ -14,8 +14,6 @@
   src: url('./fonts/SF-Pro-Rounded-Black.otf') format('opentype');
 }
 
-
-
 body {
   font-family: 'SF Pro Rounded', sans-serif;
   color: #ffffff;

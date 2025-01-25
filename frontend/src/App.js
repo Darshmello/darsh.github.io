@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import CursorEffect from "./components/CursorEffect"; // Import CursorEffect
 import { Routes, Route } from 'react-router-dom';
 import Photography from "./pages/Photography";
+import Blog from "./pages/Blog";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/work" element={<Work />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/photography" element={<Photography />} />
+        <Route path="/blog" element={<Blog />} /> 
       </Routes>
       <Footer />
     </>
