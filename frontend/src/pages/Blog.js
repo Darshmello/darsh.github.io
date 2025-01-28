@@ -6,10 +6,7 @@ export default function Blog() {
         <div classname="blog-content">
             <h1>This is my blog</h1>
         </div>
-
-
-
-        
     </section>
 };
+
 
