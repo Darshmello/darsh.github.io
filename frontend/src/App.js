@@ -9,12 +9,14 @@ import CursorEffect from "./components/CursorEffect"; // Import CursorEffect
 import { Routes, Route } from 'react-router-dom';
 import Photography from "./pages/Photography";
 import Blog from "./pages/Blog";
+import Page from "./components/Page";
 
 const App = () => {
   return (
     <>
       <CursorEffect /> {/* Add this to use the component */}
       <Navbar />
+      <Page />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
